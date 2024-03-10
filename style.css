@@ -32,6 +32,13 @@ body {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    padding: 10px;
+}
+
+.list {
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #f6bd60;
 }
 
 input {
@@ -69,7 +76,15 @@ button:hover {
     background-color: #d4a373;
 }
 
-p {
+p,
+li,
+strong {
     text-transform: capitalize;
-    padding: 10px;
+    padding: 5px;
+    list-style: none;
+}
+
+h2 {
+    padding-bottom: 5px;
+    color: white;
 }
